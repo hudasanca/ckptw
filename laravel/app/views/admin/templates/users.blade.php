@@ -1,0 +1,22 @@
+<table>
+	<tr>
+		<th>id</th>
+		<th>name</th>
+		<th>email</th>
+		<th>username</th>
+		<th>confirmed</th>
+		<th>followers</th>
+		<th>since</th>
+	</tr>
+	@foreach($users as $user)
+	<tr>
+		<td>{{$user->id}}</td>
+		<td>{{$user->name}}</td>
+		<td>{{$user->email}}</td>
+		<td>{{$user->username}}</td>
+		<td>{{$user->confirmed}}</td>
+		<td>{{count($user->followers)}}</td>
+		<td>{{$user->created_at}}</td>
+	</tr>
+	@endforeach
+</table>

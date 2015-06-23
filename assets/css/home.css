@@ -1,0 +1,92 @@
+#home{ 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: table;
+  height: 800px;
+  width: 100%;
+  background-size: cover;
+  color: white;
+}
+
+/* padded section */
+.pad-section {
+  padding: 50px 0;
+}
+.pad-section img {
+  width: 100%;
+}
+
+/* vertical-centered text */
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.text-vcenter h1 {
+  font-size: 4.5em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+#services {
+  background-color: #8F7166;
+  color: #ffffff;
+}
+#services .glyphicon {
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 60px;
+  height: 140px;
+  line-height: 140px;
+  text-align: center;
+  vertical-align: middle;
+  width: 140px;
+}
+
+#information, #about {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: table;
+  /*background-size: cover;*/
+}
+#information .panel {
+  opacity: 0.85;
+}
+
+#google_map {
+  height: 500px;
+}
+
+footer {
+  padding: 20px 0;
+}
+footer .glyphicon {
+  color: #333333;
+  font-size: 60px;
+}
+footer .glyphicon:hover {
+  color: #306d9f;
+}
+
+.root{
+  position: absolute;
+  padding: 0;
+  top: 0;
+  left: 0;
+  margin: 0;
+}
+
+@media (max-width: 768px){
+  #services h2{
+    font-size: 18pt;
+  }
+  #services .glyphicon{
+    font-size: 25pt;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+  }
+}

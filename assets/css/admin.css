@@ -1,0 +1,27 @@
+.box{
+	padding: 20px;
+	background-color: rgba(200,200,200,0.3);
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.hor{
+	overflow-x: auto;
+}
+
+table{
+	width: 100%;
+}
+
+th, td{
+	padding: 10px;
+}
+
+.transparent{
+	background-color: transparent;
+}
+
+.white{
+	background-color: white;
+}
